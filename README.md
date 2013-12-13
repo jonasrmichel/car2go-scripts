@@ -1,7 +1,10 @@
 car2go-scripts
 ==============
 
-Just some simple scripts to save and visualize [car2go](https://www.car2go.com) data. To use any of this material you'll need your own [car2go API key](https://code.google.com/p/car2go/wiki/oauth).
+Just some simple scripts to save and visualize [car2go](https://www.car2go.com) data.
 
 ## Contents
-- **`car2go_web_poll.py`**: Polls the public car2go web API and saves the raw data (XML, KML, JSON) to file.
+- **scripts/`car2go_web_poll.py`**: Polls the public car2go web API and saves the raw data (XML, KML, JSON) to file.
+  - You'll need your own [car2go API key](https://code.google.com/p/car2go/wiki/oauth).
+- **visualization/`index.html`**: A heatmap of car2go vehicles.
+  - You'll need your own [GoogleMaps API key](https://developers.google.com/maps/documentation/javascript/tutorial#api_key).
